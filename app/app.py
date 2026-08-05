@@ -8,6 +8,8 @@ import os
 # ==============================
 # PATH FIX (PUT IT HERE)
 # ==============================
+# Setup Page Layout
+st.set_page_config(page_title="AgricQual App", layout="wide")
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MODEL_PATH = os.path.join(BASE_DIR, "model", "rf_agricqual_model.joblib")
@@ -143,8 +145,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Setup Page Layout
-st.set_page_config(page_title="AgricQual App", layout="wide")
+
 
 # Top Navigation Tabs
 tab_compliance, tab_home, tab_regulator, tab_policy, tab_privacy = st.tabs(["📝 Compliance Assessment", "🏠 Home", "📊 Regulator Dashboard", "📋 Policy", "🔒 Data Protection"])
