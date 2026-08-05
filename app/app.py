@@ -163,6 +163,9 @@ with st.sidebar:
     st.write("---")
     st.write("**Version:** 1.0")
     st.write("**Model:** Random Forest Classifier")
+    st.write("**Name:** IBRAHIM HUSSAIN")
+    st.write("**SCHOOL:** Technologist | Federal Polytechnic Ohodo")
+
 
 # ==========================================
 # 4.3.2 BACKEND INTEGRATION: Load Assets
